@@ -1,0 +1,16 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["iad1"],
+  "env": {
+    "DATABASE_URL": "@database-url",
+    "REDIS_URL": "@redis-url",
+    "GITHUB_APP_ID": "@github-app-id",
+    "GITHUB_WEBHOOK_SECRET": "@github-webhook-secret",
+    "GITHUB_APP_PRIVATE_KEY": "@github-app-private-key",
+    "OPENAI_API_KEY": "@openai-api-key",
+    "NEXT_PUBLIC_APP_URL": "@next-public-app-url"
+  }
+}
